@@ -1,3 +1,10 @@
 from django.contrib import admin
+from .models import Message,Exam,Good
 
-# Register your models here.
+admin.site.register(Message)
+admin.site.register(Exam)
+admin.site.register(Good)
+
+
+
+
